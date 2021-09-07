@@ -14,3 +14,5 @@ Using Cosine KNN to classify a footfall as left or right with these three featur
 We decided to us unsupervised learning for acoustic gait analysis because unsupervised learning is better suited for finding similar data points whose labels we might not necessarily know. Using KMean we were able to replicate the accuracy of Cosine KNN using the mean, the standard deviation, and the principal component of the audio signal.
 
 To loosen the restrictions that our features had on our accuracy to predict a footfall as left or right we decided to use approximately 400 samples of audio from just before each steps first contact with the treadmill. After making sure the peaks in the audio signal were centered we were able to use KMean on these 400 features to predict runner one’s footfall as left or right with 91% accuracy.
+
+#### TODO: Look into dynamic time warping (see https://github.com/ethanharvey98/DynamicTimeWarping)
