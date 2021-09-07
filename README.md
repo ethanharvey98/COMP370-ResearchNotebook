@@ -1,6 +1,6 @@
 # COMP370-ResearchNotebook
 
-# Research Summary
+###### Research Summary
 Paragraph about data collection
 
 What does the data look like?
